@@ -1,3 +1,4 @@
+# random module required for shuffling deck
 import random
 
 # creating a list to hold the top trump cards in
@@ -24,6 +25,23 @@ player_one_deck = dog_cards[0:5]
 computer_deck = dog_cards[5:10]
 
 limbo = []
+
+print("******************************************\n")
+print("Welcome to Top Trumps!")
+print("******************************************\n")
+print("Deck: Dogs")
+print("Rules")
+print("1. The deck is split between you and the computer")
+print("2. You look at the first card of your deck and pick your strongest category.")
+print("3. If your value is higher than the computer, their card is added to your deck.")
+print("4. If your value is lower than the computer, your card is added to their deck.")
+print("5. If their is a draw, both playere and computer cards go into a limbo deck.")
+print("The player that wins the next go, gets the limbo cards")
+print("The game ends when one player loses all their cards")
+print("******************************************\n")
+print("Good Luck!")
+print("******************************************\n")
+
 
 while len(player_one_deck) != 0 and len(computer_deck) != 0:
     player_first_card = player_one_deck[0]
