@@ -41,7 +41,6 @@ computer_deck = deck[5:10]
 # created an empty limbo list for the cards from a draw to go to
 limbo = []
 
-
 # some text to start the game and explain the rules
 print("******************************************\n")
 print("Welcome to Top Trumps!")
